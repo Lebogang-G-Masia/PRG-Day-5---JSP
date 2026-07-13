@@ -60,7 +60,7 @@ At this point, Apache Tomcat should be successfully downloaded and stored in the
 2. If you have any projects open, be sure to close them, as keeping them open can cause confusion and lead to incorrect file-management.
 3. Create a New Project.
 4. Under the **"Categories"** section, click on the **"Java with Ant"** dropdown, and select **"Java Web"**, then select **"Web Application"** on the right panel
-![[proj_sel.png]]
+![](img_docs/proj_sel.png)
 5. Click **"Next"** and name the project. Again, since this documentation file follows class structure, I recommend naming this project `StudentRegistrationApp`.
 6. On the **"Server and Settings"** section, ensure that Apache Tomcat or TomEE is selected as the server.
 7. Finally, on the **"Frameworks"** section, ensure that nothing is selected. 
@@ -73,7 +73,7 @@ At this point, Apache Tomcat should be successfully downloaded and stored in the
 	- Username: `admin`
 	- Password: `admin`
 
-![[server_config.png]]
+![](img_docs/server_config.png)
 
 Quick note, if you get the following error: 
 
@@ -92,7 +92,7 @@ You will need to create the following packages:
 3. `model` - Contains user-defined data structures.
 4. `util` - Contains utility functions.
 
-![[packages.png]]
+![](img_docs/packages.png)
 
 Let's dive deeper into each package.
 
@@ -316,13 +316,13 @@ These files currently contain the default HTML, and we will work on them on the 
 
 Furthermore, on BC Connect, you will find a zip folder *(under the **"Extra Files for Class"** section)* containing a `styles.css` file, and a `validation.js` file. These files should be stored in a `css` folder, and a `javascript` folder, respectively *(see the screenshot below)*. You can click [here](https://connect.belgiumcampus.ac.za/mod/resource/view.php?id=19373) to download the zip folder. These files contain pre-written CSS and JavaScript files that we will use in class. Ensure you store them in the correct directories.
 
-![[web_pages.png]]
+![](img_docs/web_pages.png)
 
 
 
 After all of this, this should be your final project structure:
 
-![[structure.png]]
+![](img_docs/structure.png)
 
 # 5. Conclusion
 
